@@ -53,6 +53,7 @@ ol {
   gap: 16px;
   padding-top: 78px;
   max-width: 711px;
+  max-height: 534px;
 }
 
 .result__video-container {
@@ -200,6 +201,7 @@ ol {
   justify-content: start;
   gap: 26px;
   width: 399px;
+  height: 534px;
 }
 
 .title {
