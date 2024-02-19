@@ -79,7 +79,6 @@ ol {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
-  flex-wrap: nowrap;
   border: none;
 }
 
@@ -87,7 +86,8 @@ ol {
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
-  line-height: normal;
+  line-height: 1.2;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
@@ -98,7 +98,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:hover .search-form__label-text{
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -108,7 +108,7 @@ ol {
 }
 
 .search-form__label-text {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .search-form__textfield {
@@ -118,7 +118,7 @@ ol {
   border-left: none;
   background-color: transparent;
   width: 225px;
-  font-family: "inherit", sans-serif;
+  font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
   color: rgba(255, 255, 255, 0.7);
@@ -134,7 +134,7 @@ ol {
 }
 
 .search-form__textfield:focus-visible {
-  outline: none;
+  outline: solid;
 }
 
 .search-form__checkbox-list {
@@ -168,7 +168,7 @@ ol {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 1.2;
   cursor: pointer;
   appearance: none;
 }
@@ -181,7 +181,6 @@ ol {
 .button:active {
   background-color: rgb(84, 80, 80);
   text-decoration: none;
-
 }
 .button:hover {
   text-decoration: underline 1px #fff;
@@ -232,7 +231,7 @@ ol {
   text-decoration: none;
   color: inherit;
   display: block;
-  margin: 1px;
+  margin: 2px;
 }
 
 .content__card-link:hover {
@@ -240,7 +239,6 @@ ol {
 }
 
 .content__card-link:active {
-  text-decoration: none;
   background-color: #545050;
 }
 
@@ -254,7 +252,7 @@ ol {
 
 .content__card-link_current {
   background-color: #545050;
-  }
+}
 
 .content__video-card {
   display: flex;
@@ -275,10 +273,10 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: "Fira Sans", Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 16.2px;
+  line-height: 0.9;
   color: #fff;
 }
 
